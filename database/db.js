@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://vegeta.cloud';
+var url = 'https://api.vegeta.cloud';
 try {
-if(url == 'https://vegeta.cloud') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://api.vegeta.cloud') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
